@@ -1,0 +1,119 @@
+body {
+  background: linear-gradient(
+    89.9deg,
+    rgb(208, 246, 255) 0.1%,
+    rgb(255, 237, 237) 47.9%,
+    rgb(255, 255, 231) 100.2%
+  );
+  margin: 15px auto;
+}
+
+h1 {
+  color: #415b90;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+}
+
+h2 {
+  color: #415b90;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+}
+.searchbar {
+  width: 70%;
+  border-radius: 10px;
+  border-color: #415b90;
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+.submitSearch {
+  color: #ffffff;
+  background-color: #415b90;
+  border-radius: 10px;
+  transition: all 200ms ease-in-out;
+}
+.submitSearch:hover {
+  color: #415b90;
+  background-color: orange;
+  cursor: pointer;
+}
+.submitLocation {
+  color: #ffffff;
+  background-color: #415b90;
+  border-radius: 10px;
+  transition: all 200ms ease-in-out;
+}
+.submitLocation:hover {
+  color: #415b90;
+  background-color: orange;
+  cursor: pointer;
+}
+.card {
+  display: block;
+  background: transparent;
+  margin: 0 auto;
+  border: 2px solid #415b90;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #415b90;
+  text-align: center;
+  padding: 10px;
+}
+.sunny {
+  font-size: 64px;
+  color: orange;
+}
+.cardTemperature {
+  display: block;
+  margin: 0 auto;
+  border: 2px solid #415b90;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #415b90;
+  text-align: center;
+}
+.card-temperature {
+  display: inline;
+  padding: 5px;
+}
+.degree {
+  display: inline;
+  padding: 5px;
+  margin: 0 auto;
+}
+.card-day {
+  line-height: 15px;
+  padding: 10px;
+}
+.card-wind {
+  line-height: 5px;
+}
+.col {
+  display: inline-table;
+  margin-top: 14px;
+  margin-left: 20px;
+  text-align: center;
+  padding: 5px;
+  font-family: "Rubik", sans-serif;
+}
+.day {
+  color: #2ca4bf;
+  font-size: 24px;
+  font-weight: bold;
+}
+.card-low-high {
+  color: #415b90;
+  font-size: 20px;
+  font-weight: normal;
+}
+.emoji {
+  font-size: 46px;
+}
+.temperature-icon {
+  font-size: 40px;
+  color: orange;
+  display: flex;
+  padding-left: 35px;
+  margin-left: 65px;
+  position: static;
+}
